@@ -1,0 +1,11 @@
+_ > nanoagent.plugin.v0001.ProductConfig:
+tagline: "Group tables with every tiebreaker applied, and a referee that checks them"
+summary: "Pick a group of a fictional football tournament, a matchday and a ruleset, FIFA-style or UEFA-style tiebreakers. The agent reads the results and the cards, works out the table and saves it; a rule-based check recounts every number and confirms the order, down to fair play and seeds."
+highlights:
+  - "Two complete rulesets, from head-to-head and its reapplication to fair-play points and seeds"
+  - "Any matchday, so you can see how a group stood after each round"
+  - "Every table is checked against an answer key and recounted by hand-written code"
+steps:
+  - "Choose a tournament, a group, a matchday and fifa or uefa"
+  - "The agent reads the group's matches and saves its table"
+  - "See the table, who qualifies, and whether every check held"

@@ -1,0 +1,8 @@
+/* Styles for this plugin's renderer (renderers.js), the group table, over the kit's (kit/kit.css).
+   They apply only inside the renderer's own shadow root and use only the kit's variables, so they
+   follow the host's light and dark themes. */
+
+.standings { display: grid; gap: 8px; min-width: 0; }
+.standings-note { display: flex; align-items: center; gap: 6px; font-size: 13px; overflow-wrap: anywhere; }
+.standings-note .icon { color: var(--accent); flex: none; }
+.standings tr.qualified td { font-weight: 620; }
